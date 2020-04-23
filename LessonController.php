@@ -14,7 +14,6 @@ class LessonController {
      * 
      * @param int $category
      * @param string $returnType
-     * @return Response $response
      */
     public function index(?int $category = 0, ?string $returnType = 'json'): void
     {
